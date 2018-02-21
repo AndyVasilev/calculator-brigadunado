@@ -251,8 +251,8 @@ input[type=radio]:checked + .calc__type_img::before {
   margin-top: 5px;
   max-height: 200px;
   overflow: hidden;
-  -webkit-transition: max-height 0.25s ease-in;
-  transition: max-height 0.25s ease-in;
+  -webkit-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
 }
 .calc__type_show.show {
   max-height: 2000px;
