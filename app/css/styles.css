@@ -174,11 +174,8 @@ input[type=number] {
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
-.calc__type_checked:hover {
-  background: #fbd0b9;
-}
 .calc__type_checked:hover::before {
-  border: 3px solid #fff;
+  border: 3px solid #fbd0b9;
 }
 .calc__type_checked-img:hover {
   opacity: 0.8;
